@@ -87,6 +87,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'credit_app.wsgi.application'
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 
 
 # Database
